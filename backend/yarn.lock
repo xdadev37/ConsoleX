@@ -2510,7 +2510,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/eslint-scope@npm:^3.7.0":
+"@types/eslint-scope@npm:^3.7.0, @types/eslint-scope@npm:^3.7.3":
   version: 3.7.3
   resolution: "@types/eslint-scope@npm:3.7.3"
   dependencies:
@@ -2530,7 +2530,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/estree@npm:*":
+"@types/estree@npm:*, @types/estree@npm:^0.0.51":
   version: 0.0.51
   resolution: "@types/estree@npm:0.0.51"
   checksum: e56a3bcf759fd9185e992e7fdb3c6a5f81e8ff120e871641607581fb3728d16c811702a7d40fa5f869b7f7b4437ab6a87eb8d98ffafeee51e85bbe955932a189
@@ -2747,6 +2747,15 @@ __metadata:
     hoist-non-react-statics: ^3.3.0
     redux: ^4.0.0
   checksum: 7cedb0f20806ce67255f676fab2d4d9534c12705d43636df95224cfa77fdf5a2e792dc76c6e072c02cad1c88030aea822c14f36fe85d459b898ee68fcff6f05c
+  languageName: node
+  linkType: hard
+
+"@types/react-transition-group@npm:^4.4.0":
+  version: 4.4.4
+  resolution: "@types/react-transition-group@npm:4.4.4"
+  dependencies:
+    "@types/react": "*"
+  checksum: 86e9ff9731798e12bc2afe0304678918769633b531dcf6397f86af81718fb7930ef8648e894eeb3718fc6eab6eb885cfb9b82a44d1d74e10951ee11ebc4643ae
   languageName: node
   linkType: hard
 
@@ -3627,7 +3636,17 @@ __metadata:
     "@strapi/plugin-i18n": 4.2.0-beta.0
     "@strapi/plugin-users-permissions": 4.2.0-beta.0
     "@strapi/strapi": 4.2.0-beta.0
+    immer: ^9.0.12
+    koa: ^2.13.4
+    object-assign: ^4.1.1
     pg: 8.6.0
+    qs: ^6.10.3
+    react-is: ^17.0.2
+    react-select: ^5.2.2
+    redux: ^4.1.2
+    typescript: ^4.6.2
+    webpack: ^5.70.0
+    whatwg-fetch: ^3.6.2
   languageName: unknown
   linkType: soft
 
@@ -5714,7 +5733,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"enhanced-resolve@npm:^5.8.3":
+"enhanced-resolve@npm:^5.8.3, enhanced-resolve@npm:^5.9.2":
   version: 5.9.2
   resolution: "enhanced-resolve@npm:5.9.2"
   dependencies:
@@ -6951,7 +6970,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"graceful-fs@npm:^4.1.2, graceful-fs@npm:^4.1.6, graceful-fs@npm:^4.2.0, graceful-fs@npm:^4.2.2, graceful-fs@npm:^4.2.4, graceful-fs@npm:^4.2.6":
+"graceful-fs@npm:^4.1.2, graceful-fs@npm:^4.1.6, graceful-fs@npm:^4.2.0, graceful-fs@npm:^4.2.2, graceful-fs@npm:^4.2.4, graceful-fs@npm:^4.2.6, graceful-fs@npm:^4.2.9":
   version: 4.2.9
   resolution: "graceful-fs@npm:4.2.9"
   checksum: 68ea4e07ff2c041ada184f9278b830375f8e0b75154e3f080af6b70f66172fabb4108d19b3863a96b53fc068a310b9b6493d86d1291acc5f3861eb4b79d26ad6
@@ -7543,6 +7562,13 @@ __metadata:
   version: 9.0.6
   resolution: "immer@npm:9.0.6"
   checksum: 75da22f3b32f3f14604eb389b4f50e84a14f2e42f306f0cbe4d2969aed54ec7fda9a7e9ca42ebae2ba73ec9bb6ec1001fafbac535accaf03860054ab0f7e8388
+  languageName: node
+  linkType: hard
+
+"immer@npm:^9.0.12":
+  version: 9.0.12
+  resolution: "immer@npm:9.0.12"
+  checksum: bcbec6d76dac65e49068eb67ece4d407116e62b8cde3126aa89c801e408f5047763ba0aeb62f1938c1aa704bb6612f1d8302bb2a86fa1fc60fcc12d8b25dc895
   languageName: node
   linkType: hard
 
@@ -8786,6 +8812,37 @@ __metadata:
     type-is: ^1.6.16
     vary: ^1.1.2
   checksum: 23325dd94606e92774f3822bb3598abf14d9f11b26c7d7267aa54d9dadc6a01f715658aca34ff77e34678431710c128816fd67748646737693bf63c76e8f6707
+  languageName: node
+  linkType: hard
+
+"koa@npm:^2.13.4":
+  version: 2.13.4
+  resolution: "koa@npm:2.13.4"
+  dependencies:
+    accepts: ^1.3.5
+    cache-content-type: ^1.0.0
+    content-disposition: ~0.5.2
+    content-type: ^1.0.4
+    cookies: ~0.8.0
+    debug: ^4.3.2
+    delegates: ^1.0.0
+    depd: ^2.0.0
+    destroy: ^1.0.4
+    encodeurl: ^1.0.2
+    escape-html: ^1.0.3
+    fresh: ~0.5.2
+    http-assert: ^1.3.0
+    http-errors: ^1.6.3
+    is-generator-function: ^1.0.7
+    koa-compose: ^4.1.0
+    koa-convert: ^2.0.0
+    on-finished: ^2.3.0
+    only: ~0.0.2
+    parseurl: ^1.3.2
+    statuses: ^1.5.0
+    type-is: ^1.6.16
+    vary: ^1.1.2
+  checksum: c9a6f9c803433b2d143a0788308048c1432a71c5febcfea2af7f2e8bd732b9bfd75c2c220d553752ee9ab9a3f52490f006cfd521db97cd01d8461d67cc1ccc1f
   languageName: node
   linkType: hard
 
@@ -11132,7 +11189,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"qs@npm:^6.10.2, qs@npm:^6.4.0, qs@npm:^6.9.6":
+"qs@npm:^6.10.2, qs@npm:^6.10.3, qs@npm:^6.4.0, qs@npm:^6.9.6":
   version: 6.10.3
   resolution: "qs@npm:6.10.3"
   dependencies:
@@ -11379,6 +11436,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"react-is@npm:^17.0.2":
+  version: 17.0.2
+  resolution: "react-is@npm:17.0.2"
+  checksum: 9d6d111d8990dc98bc5402c1266a808b0459b5d54830bbea24c12d908b536df7883f268a7868cfaedde3dd9d4e0d574db456f84d2e6df9c4526f99bb4b5344d8
+  languageName: node
+  linkType: hard
+
 "react-lifecycles-compat@npm:^3.0.4":
   version: 3.0.4
   resolution: "react-lifecycles-compat@npm:3.0.4"
@@ -11498,6 +11562,24 @@ __metadata:
     react: ^16.8.0 || ^17.0.0
     react-dom: ^16.8.0 || ^17.0.0
   checksum: e87e0b42a662ddce7957a69a3029ea769b22264c197cbd1d8bde1ce631e49c5c5f42414773364674a7a6a8431340e1ede49220583bf1dcd966b63e9bd25cfc12
+  languageName: node
+  linkType: hard
+
+"react-select@npm:^5.2.2":
+  version: 5.2.2
+  resolution: "react-select@npm:5.2.2"
+  dependencies:
+    "@babel/runtime": ^7.12.0
+    "@emotion/cache": ^11.4.0
+    "@emotion/react": ^11.1.1
+    "@types/react-transition-group": ^4.4.0
+    memoize-one: ^5.0.0
+    prop-types: ^15.6.0
+    react-transition-group: ^4.3.0
+  peerDependencies:
+    react: ^16.8.0 || ^17.0.0
+    react-dom: ^16.8.0 || ^17.0.0
+  checksum: 02cf76a31df6d957b15e8664957ece85afb0e9538f0686f77e8dd7cdc47cb59b71e295cd373912f2dd641724f140a1f701c91e7e7f89bb7e845a04bf5d6c67ad
   languageName: node
   linkType: hard
 
@@ -11642,7 +11724,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"redux@npm:^4.0.0, redux@npm:^4.0.1, redux@npm:^4.1.1":
+"redux@npm:^4.0.0, redux@npm:^4.0.1, redux@npm:^4.1.1, redux@npm:^4.1.2":
   version: 4.1.2
   resolution: "redux@npm:4.1.2"
   dependencies:
@@ -13460,7 +13542,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"typescript@npm:4.6.2":
+"typescript@npm:4.6.2, typescript@npm:^4.6.2":
   version: 4.6.2
   resolution: "typescript@npm:4.6.2"
   bin:
@@ -13470,7 +13552,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"typescript@patch:typescript@4.6.2#~builtin<compat/typescript>":
+"typescript@patch:typescript@4.6.2#~builtin<compat/typescript>, typescript@patch:typescript@^4.6.2#~builtin<compat/typescript>":
   version: 4.6.2
   resolution: "typescript@patch:typescript@npm%3A4.6.2#~builtin<compat/typescript>::version=4.6.2&hash=bda367"
   bin:
@@ -13941,7 +14023,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"webpack-sources@npm:^3.2.2":
+"webpack-sources@npm:^3.2.2, webpack-sources@npm:^3.2.3":
   version: 3.2.3
   resolution: "webpack-sources@npm:3.2.3"
   checksum: 989e401b9fe3536529e2a99dac8c1bdc50e3a0a2c8669cbafad31271eadd994bc9405f88a3039cd2e29db5e6d9d0926ceb7a1a4e7409ece021fe79c37d9c4607
@@ -13982,6 +14064,43 @@ __metadata:
   bin:
     webpack: bin/webpack.js
   checksum: 221ab8ccd440cb678269e86689704bbef81cf41393eb266625873e30c6980ffaa055bb1a7d14bf9fc0f5a2e6f03d15d068cbb995bc876757c01a4ca27fd2870c
+  languageName: node
+  linkType: hard
+
+"webpack@npm:^5.70.0":
+  version: 5.70.0
+  resolution: "webpack@npm:5.70.0"
+  dependencies:
+    "@types/eslint-scope": ^3.7.3
+    "@types/estree": ^0.0.51
+    "@webassemblyjs/ast": 1.11.1
+    "@webassemblyjs/wasm-edit": 1.11.1
+    "@webassemblyjs/wasm-parser": 1.11.1
+    acorn: ^8.4.1
+    acorn-import-assertions: ^1.7.6
+    browserslist: ^4.14.5
+    chrome-trace-event: ^1.0.2
+    enhanced-resolve: ^5.9.2
+    es-module-lexer: ^0.9.0
+    eslint-scope: 5.1.1
+    events: ^3.2.0
+    glob-to-regexp: ^0.4.1
+    graceful-fs: ^4.2.9
+    json-parse-better-errors: ^1.0.2
+    loader-runner: ^4.2.0
+    mime-types: ^2.1.27
+    neo-async: ^2.6.2
+    schema-utils: ^3.1.0
+    tapable: ^2.1.1
+    terser-webpack-plugin: ^5.1.3
+    watchpack: ^2.3.1
+    webpack-sources: ^3.2.3
+  peerDependenciesMeta:
+    webpack-cli:
+      optional: true
+  bin:
+    webpack: bin/webpack.js
+  checksum: 00439884a9cdd5305aed3ce93735635785a15c5464a6d2cfce87e17727a07585de02420913e82aa85ddd2ae7322175d2cfda6ac0878a17f061cb605e6a7db57a
   languageName: node
   linkType: hard
 
